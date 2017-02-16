@@ -61,10 +61,10 @@ PDF_SUPPORT_VERSION = dict(     #map keyword to min version that supports it
 
 if isPy3:
     def pdfdocEnc(x):
-        return x.encode('extpdfdoc') if isinstance(x,str) else x
+        return x.encode('utf-8') if isinstance(x,str) else x
 else:
     def pdfdocEnc(x):
-        return x.encode('extpdfdoc') if isinstance(x,unicode) else x
+        return x.encode('utf-8') if isinstance(x,unicode) else x
 
 def format(element, document, toplevel=0):
     """Indirection step for formatting.
