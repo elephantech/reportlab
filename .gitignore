@@ -1,0 +1,8 @@
+.python-version
+build
+dist
+src/reportlab.egg-info
+src/reportlab/fonts/_*.pfb
+src/reportlab/fonts/co*.pfb
+src/reportlab/fonts/sy*.pfb
+src/reportlab/fonts/z*.pfb
